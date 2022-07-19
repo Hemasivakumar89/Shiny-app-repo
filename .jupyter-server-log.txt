@@ -1,0 +1,56 @@
+[I 19:20:43.755 NotebookApp] Writing notebook server cookie secret to /home/jovyan/.local/share/jupyter/runtime/notebook_cookie_secret
+[W 2022-07-19 19:20:45.633 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-19 19:20:45.633 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-19 19:20:45.633 LabApp] 'base_url' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-19 19:20:45.633 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-19 19:20:45.633 LabApp] 'trust_xheaders' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-19 19:20:45.633 LabApp] 'allow_origin' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-19 19:20:45.634 LabApp] 'allow_origin_pat' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-19 19:20:45.634 LabApp] 'extra_template_paths' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-07-19 19:20:45.634 LabApp] 'jinja_template_vars' was found in both NotebookApp and ServerApp. This is likely a recent change. This config will only be set in NotebookApp. Please check if you should also config these traits in ServerApp for your purpose.
+[W 2022-07-19 19:20:45.634 LabApp] 'shutdown_no_activity_timeout' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-19 19:20:45.634 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2022-07-19 19:20:45.634 LabApp] 'tornado_settings' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2022-07-19 19:20:45.649 LabApp] JupyterLab extension loaded from /srv/conda/envs/notebook/lib/python3.9/site-packages/jupyterlab
+[I 2022-07-19 19:20:45.649 LabApp] JupyterLab application directory is /srv/conda/envs/notebook/share/jupyter/lab
+[I 19:20:45.664 NotebookApp] nteract extension loaded from /srv/conda/envs/notebook/lib/python3.9/site-packages/nteract_on_jupyter
+[I 19:20:45.666 NotebookApp] Will shut down after 600 seconds with no kernels or terminals.
+[I 19:20:45.668 NotebookApp] Serving notebooks from local directory: /home/jovyan
+[I 19:20:45.668 NotebookApp] Jupyter Notebook 6.4.10 is running at:
+[I 19:20:45.668 NotebookApp] http://jupyter-hemasivakumar89-2dshiny-2dapp-2drepo-2dsx79bq11:8888/user/hemasivakumar89-shiny-app-repo-sx79bq11/?token=...
+[I 19:20:45.668 NotebookApp]  or http://127.0.0.1:8888/user/hemasivakumar89-shiny-app-repo-sx79bq11/?token=...
+[I 19:20:45.668 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[W 19:20:45.674 NotebookApp] No web browser found: could not locate runnable browser.
+[I 19:20:46.990 NotebookApp] 302 GET /user/hemasivakumar89-shiny-app-repo-sx79bq11/ (10.0.13.76) 1.000000ms
+[I 19:20:49.810 NotebookApp] 301 GET /user/hemasivakumar89-shiny-app-repo-sx79bq11/static/favicons/favicon.ico (108.169.232.97) 0.870000ms
+[I 2022-07-19 19:20:52.998 LabApp] Build is up to date
+[I 19:20:55.625 NotebookApp] Creating new notebook in 
+[I 19:20:55.670 NotebookApp] Writing notebook-signing key to /home/jovyan/.local/share/jupyter/notebook_secret
+[I 19:20:56.190 NotebookApp] Kernel started: 672f14c2-3485-4c2a-993e-a372f06f5f01, name: python3
+[I 19:20:56.190 NotebookApp] Culling kernels with idle durations > 600 seconds at 60 second intervals ...
+[I 19:20:56.191 NotebookApp] Culling kernels even with connected clients
+[I 19:20:56.952 NotebookApp] Starting buffering for 672f14c2-3485-4c2a-993e-a372f06f5f01:ab6be923-6f0a-4f8c-beb4-847629d066d1
+[I 19:20:57.036 NotebookApp] 301 GET /user/hemasivakumar89-shiny-app-repo-sx79bq11/static/favicons/favicon-busy-1.ico (108.169.232.97) 0.600000ms
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 07a67ad8-38bb-4f3d-95a2-57ba0a872261
+[I 19:21:01.024 NotebookApp] Uploading file to /iris (1).csv
+[I 19:21:15.202 NotebookApp] New terminal with automatic name: 1
+TermSocket.open: 1
+TermSocket.open: Opened 1
+[I 19:22:56.140 NotebookApp] Saving file at /Untitled.ipynb
+[I 19:26:57.179 NotebookApp] Saving file at /Untitled.ipynb
+[I 19:28:57.417 NotebookApp] Saving file at /Untitled.ipynb
+[I 19:30:13.132 NotebookApp] Uploading file to /Machine learning python.jupyterlab-workspace
+[W 19:30:41.048 NotebookApp] 404 GET /user/hemasivakumar89-shiny-app-repo-sx79bq11/api/contents/Machine%20learning%20assignment.ipynb?1658259039882 (108.169.232.97): No such file or directory: Machine learning assignment.ipynb
+[W 19:30:41.048 NotebookApp] No such file or directory: Machine learning assignment.ipynb
+[W 19:30:41.049 NotebookApp] 404 GET /user/hemasivakumar89-shiny-app-repo-sx79bq11/api/contents/Machine%20learning%20assignment.ipynb?1658259039882 (108.169.232.97) 1.820000ms referer=https://hub.gke2.mybinder.org/user/hemasivakumar89-shiny-app-repo-sx79bq11/lab/tree/Untitled.ipynb
+[W 19:30:41.208 NotebookApp] 404 GET /user/hemasivakumar89-shiny-app-repo-sx79bq11/api/contents/Machine%20learning%20assignment.ipynb?content=0&1658259040042 (108.169.232.97): No such file or directory: Machine learning assignment.ipynb
+[W 19:30:41.208 NotebookApp] No such file or directory: Machine learning assignment.ipynb
+[W 19:30:41.208 NotebookApp] 404 GET /user/hemasivakumar89-shiny-app-repo-sx79bq11/api/contents/Machine%20learning%20assignment.ipynb?content=0&1658259040042 (108.169.232.97) 1.610000ms referer=https://hub.gke2.mybinder.org/user/hemasivakumar89-shiny-app-repo-sx79bq11/lab/tree/Untitled.ipynb
+[I 19:30:41.311 NotebookApp] Uploading file to /Machine learning assignment.ipynb
+[W 19:30:41.438 NotebookApp] 409 PATCH /user/hemasivakumar89-shiny-app-repo-sx79bq11/api/contents/Machine%20learning%20assignment.ipynb?1658259040213 (108.169.232.97): File already exists: Untitled.ipynb
+[W 19:30:41.438 NotebookApp] File already exists: Untitled.ipynb
+[W 19:30:41.438 NotebookApp] 409 PATCH /user/hemasivakumar89-shiny-app-repo-sx79bq11/api/contents/Machine%20learning%20assignment.ipynb?1658259040213 (108.169.232.97) 1.680000ms referer=https://hub.gke2.mybinder.org/user/hemasivakumar89-shiny-app-repo-sx79bq11/lab/tree/Untitled.ipynb
+[I 19:31:00.522 NotebookApp] New terminal with automatic name: 2
+TermSocket.open: 2
+TermSocket.open: Opened 2
