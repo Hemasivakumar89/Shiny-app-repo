@@ -1,0 +1,25 @@
+1658521212497:# dimensions of dataset
+1658521212499:dim(dataset)
+1658521229113:# attach the iris dataset to the environment
+1658521229115:data(iris)
+1658521229121:# rename the dataset
+1658521229122:dataset <- iris
+1658521229124:# define the filename
+1658521229125:filename <- "iris.csv"
+1658521229126:# load the CSV file from the local directory
+1658521229127:dataset <- read.csv(filename, header=FALSE)
+1658521229133:# set the column names in the dataset
+1658521229134:colnames(dataset) <- c("Sepal.Length","Sepal.Width","Petal.Length","Petal.Width","Species")
+1658521229136:# create a list of 80% of the rows in the original dataset we can use for training
+1658521229137:validation_index <- createDataPartition(dataset$Species, p=0.80, list=FALSE)
+1658521229193:# select 20% of the data for validation
+1658521229195:validation <- dataset[-validation_index,]
+1658521229196:# use the remaining 80% of data to training and testing the models
+1658521229198:dataset <- dataset[validation_index,]
+1658521229199:# dimensions of dataset
+1658521229200:dim(dataset)
+1658521261121:# rename the dataset
+1658521261122:dataset <- iris
+1658521285307:# use the remaining 80% of data to training and testing the models
+1658521285309:dataset <- dataset[validation_index,]
+1658521301238:install.packages(caret)

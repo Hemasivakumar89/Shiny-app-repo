@@ -1,0 +1,8 @@
+--prefix: 1 required TEXT missing
+Run with --help for more information.
+Run 'mamba init' to be able to run mamba activate/deactivate
+and start a new shell session. Or use conda to activate/deactivate.
+
+    $ conda activate
+
+]0;/home/jovyan]0;jovyan@jupyter-hemasivakumar89-2dshiny-2dapp-2drepo-2daci8kcd1: ~[01;32mjovyan@jupyter-hemasivakumar89-2dshiny-2dapp-2drepo-2daci8kcd1[00m:[01;34m~[00m$ 
